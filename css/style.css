@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    width: 300px;
+}
+.signup-container{
+    height: 75vh;
+    max-width: 500px;
+    background-color: white;
+    box-shadow: 0px 5px 25px rgb(15, 15, 15);
+    border-radius: 8px;
+    text-align: center;
+}
+.signup-container h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 8px 0px;
+}
+.signup-container p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #606770;
+    padding-bottom: 8px;
+}
+.signup-form{
+    padding: 20px;
+}
+.form_half_width{
+    width: 102.1%;
+    display: flex;
+    justify-content: space-between;
+}
+.form_full_width{
+    display: flex;
+    flex-direction: column;
+}
+input[type="text"], 
+select{
+    font-size: 18px;
+    width: 100%;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="email"],
+input[type="password"],
+select{
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.birthday_data{
+    width: 102.1%;
+    display: flex;
+    flex-direction: row;
+}
+button{
+    font-size: 18px;
+    padding: 10px 60px;
+    background-color: #42b72a;;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #36a420;
+}
+
+.gender{
+    font-size: 18px;
+    padding: 10px 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+
+}
+input[type="radio"]
+select{
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+a{
+    text-decoration: none;
+}
+.error {
+    color: red;
+    font-size: 12px;
+    display: none;
+    margin-top: 5px;
+}
+.read-box{
+    display: flex;
+}
+.read-box p{
+    margin-right: 5px;
+    font-size: 14px;
+}
+.read-box img{
+    width: 18px;
+    height: 18px;
+    
+}
+.gen-label{
+    margin-right: 15px;
+}
+.read-text{
+    padding: 15px 0px;
+}
+
